@@ -47,6 +47,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func parseJSON(){
         SVProgressHUD.show()
+        
+        titles.removeAll()
+        externalURLs.removeAll()
+        contents.removeAll()
+        
         let urlString = "https://daringfireball.net/feeds/json"
         let url = URL(string: urlString)
         URLSession.shared.dataTask(with: url!) { data, response, error in
