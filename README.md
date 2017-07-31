@@ -1,4 +1,4 @@
-##Daring Fireball
+<h1>Daring Fireball</h1>
 
 Download and install on your own phone, given you have a developer certificate.
 
