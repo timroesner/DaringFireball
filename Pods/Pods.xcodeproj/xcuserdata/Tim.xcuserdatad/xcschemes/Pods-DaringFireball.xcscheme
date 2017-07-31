@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "22CA9D281F2EEC84008B9553"
-               BuildableName = "DaringFireball.app"
-               BlueprintName = "DaringFireball"
-               ReferencedContainer = "container:DaringFireball.xcodeproj">
+               BlueprintIdentifier = "1879268528FC12033E434262AF204A5B"
+               BuildableName = "Pods_DaringFireball.framework"
+               BlueprintName = "Pods-DaringFireball"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22CA9D281F2EEC84008B9553"
-            BuildableName = "DaringFireball.app"
-            BlueprintName = "DaringFireball"
-            ReferencedContainer = "container:DaringFireball.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22CA9D281F2EEC84008B9553"
-            BuildableName = "DaringFireball.app"
-            BlueprintName = "DaringFireball"
-            ReferencedContainer = "container:DaringFireball.xcodeproj">
+            BlueprintIdentifier = "1879268528FC12033E434262AF204A5B"
+            BuildableName = "Pods_DaringFireball.framework"
+            BlueprintName = "Pods-DaringFireball"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22CA9D281F2EEC84008B9553"
-            BuildableName = "DaringFireball.app"
-            BlueprintName = "DaringFireball"
-            ReferencedContainer = "container:DaringFireball.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

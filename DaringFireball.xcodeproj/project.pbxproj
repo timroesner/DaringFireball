@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08DBD88871F11D05B45E65AD /* Pods_DaringFireball.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F772918F540C5B8D963875 /* Pods_DaringFireball.framework */; };
+		220DF6111F2EFEA0009124EE /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220DF6101F2EFEA0009124EE /* ArticleViewController.swift */; };
 		22CA9D2D1F2EEC84008B9553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA9D2C1F2EEC84008B9553 /* AppDelegate.swift */; };
 		22CA9D2F1F2EEC84008B9553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA9D2E1F2EEC84008B9553 /* ViewController.swift */; };
 		22CA9D321F2EEC84008B9553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CA9D301F2EEC84008B9553 /* Main.storyboard */; };
 		22CA9D341F2EEC84008B9553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CA9D331F2EEC84008B9553 /* Assets.xcassets */; };
 		22CA9D371F2EEC84008B9553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CA9D351F2EEC84008B9553 /* LaunchScreen.storyboard */; };
+		22E6A99D1F2F03F100B822C8 /* css.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22E6A99C1F2F03F100B822C8 /* css.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220DF6101F2EFEA0009124EE /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 		22CA9D291F2EEC84008B9553 /* DaringFireball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaringFireball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CA9D2C1F2EEC84008B9553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22CA9D2E1F2EEC84008B9553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		22CA9D331F2EEC84008B9553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22CA9D361F2EEC84008B9553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22CA9D381F2EEC84008B9553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E6A99C1F2F03F100B822C8 /* css.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = css.txt; sourceTree = "<group>"; };
+		23F772918F540C5B8D963875 /* Pods_DaringFireball.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaringFireball.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EAB8174201C0389A4F8DD5 /* Pods-DaringFireball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaringFireball.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaringFireball/Pods-DaringFireball.release.xcconfig"; sourceTree = "<group>"; };
+		F0FA2AAEEB4819959CFC20B1 /* Pods-DaringFireball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaringFireball.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaringFireball/Pods-DaringFireball.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08DBD88871F11D05B45E65AD /* Pods_DaringFireball.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				22CA9D2B1F2EEC84008B9553 /* DaringFireball */,
 				22CA9D2A1F2EEC84008B9553 /* Products */,
+				637EC6A298063B98DB6E56A3 /* Pods */,
+				71EBC18EC5DFF8D72123722C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +67,31 @@
 			children = (
 				22CA9D2C1F2EEC84008B9553 /* AppDelegate.swift */,
 				22CA9D2E1F2EEC84008B9553 /* ViewController.swift */,
+				220DF6101F2EFEA0009124EE /* ArticleViewController.swift */,
 				22CA9D301F2EEC84008B9553 /* Main.storyboard */,
 				22CA9D331F2EEC84008B9553 /* Assets.xcassets */,
 				22CA9D351F2EEC84008B9553 /* LaunchScreen.storyboard */,
 				22CA9D381F2EEC84008B9553 /* Info.plist */,
+				22E6A99C1F2F03F100B822C8 /* css.txt */,
 			);
 			path = DaringFireball;
+			sourceTree = "<group>";
+		};
+		637EC6A298063B98DB6E56A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0FA2AAEEB4819959CFC20B1 /* Pods-DaringFireball.debug.xcconfig */,
+				65EAB8174201C0389A4F8DD5 /* Pods-DaringFireball.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71EBC18EC5DFF8D72123722C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23F772918F540C5B8D963875 /* Pods_DaringFireball.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22CA9D3B1F2EEC84008B9553 /* Build configuration list for PBXNativeTarget "DaringFireball" */;
 			buildPhases = (
+				7CC4A35EF70BE7921F7D9ADF /* [CP] Check Pods Manifest.lock */,
 				22CA9D251F2EEC84008B9553 /* Sources */,
 				22CA9D261F2EEC84008B9553 /* Frameworks */,
 				22CA9D271F2EEC84008B9553 /* Resources */,
+				09F2BC35F7F5417D52CDD2A1 /* [CP] Embed Pods Frameworks */,
+				0EBC4ADF2E60FEC1AF3EBD59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,11 +159,60 @@
 			files = (
 				22CA9D371F2EEC84008B9553 /* LaunchScreen.storyboard in Resources */,
 				22CA9D341F2EEC84008B9553 /* Assets.xcassets in Resources */,
+				22E6A99D1F2F03F100B822C8 /* css.txt in Resources */,
 				22CA9D321F2EEC84008B9553 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09F2BC35F7F5417D52CDD2A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaringFireball/Pods-DaringFireball-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EBC4ADF2E60FEC1AF3EBD59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaringFireball/Pods-DaringFireball-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CC4A35EF70BE7921F7D9ADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22CA9D251F2EEC84008B9553 /* Sources */ = {
@@ -138,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22CA9D2F1F2EEC84008B9553 /* ViewController.swift in Sources */,
+				220DF6111F2EFEA0009124EE /* ArticleViewController.swift in Sources */,
 				22CA9D2D1F2EEC84008B9553 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,10 +340,12 @@
 		};
 		22CA9D3C1F2EEC84008B9553 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FA2AAEEB4819959CFC20B1 /* Pods-DaringFireball.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7BT7DC73YL;
 				INFOPLIST_FILE = DaringFireball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TR.DaringFireball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +355,12 @@
 		};
 		22CA9D3D1F2EEC84008B9553 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65EAB8174201C0389A4F8DD5 /* Pods-DaringFireball.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7BT7DC73YL;
 				INFOPLIST_FILE = DaringFireball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TR.DaringFireball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +387,7 @@
 				22CA9D3D1F2EEC84008B9553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
