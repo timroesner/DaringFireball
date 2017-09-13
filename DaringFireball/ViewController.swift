@@ -45,7 +45,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
-    func parseJSON(){
+    @objc func parseJSON(){
         SVProgressHUD.show()
         
         titles.removeAll()
